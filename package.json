@@ -1,0 +1,28 @@
+{
+  "name": "members-only",
+  "version": "1.0.0",
+  "description": "A blog style app that makes use of the Passport module to authenticate users and modify what they can see based on their login status.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JamiePham001/members-only.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JamiePham001/members-only/issues"
+  },
+  "homepage": "https://github.com/JamiePham001/members-only#readme",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^5.1.0",
+    "express-session": "^1.18.2",
+    "express-validator": "^7.2.1",
+    "passport": "^0.7.0",
+    "passport-local": "^1.0.0",
+    "pg": "^8.16.3"
+  }
+}
